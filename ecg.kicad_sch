@@ -4273,7 +4273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 143.51 146.558 90)
 			(effects
 				(font
@@ -4408,7 +4408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 192.0748 24.13 0)
 			(effects
 				(font
@@ -4681,7 +4681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 74.168 129.54 90)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 87.63 128.778 90)
 			(effects
 				(font
@@ -4958,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 128.27 150.1648 0)
 			(effects
 				(font
@@ -5162,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 101.092 129.54 90)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 186.3852 24.13 0)
 			(effects
 				(font
@@ -5370,7 +5370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 160.3248 134.62 0)
 			(effects
 				(font
@@ -5440,7 +5440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 177.4952 134.62 0)
 			(effects
 				(font
@@ -5585,7 +5585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 174.498 27.94 90)
 			(effects
 				(font
@@ -6221,7 +6221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 96.2152 152.4 0)
 			(effects
 				(font
@@ -6290,7 +6290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 33.9852 0)
 			(effects
 				(font
@@ -6493,7 +6493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 79.0448 152.4 0)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 16.51)
+		(at 17.78 17.78)
 		(size 31.75 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -6614,7 +6614,7 @@
 		)
 		(uuid "1c4c63ba-b667-49bf-8c13-7d2046cd185f")
 		(property "Sheetname" "Analog"
-			(at 16.51 15.7984 0)
+			(at 17.78 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6623,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 16.51 37.4146 0)
+			(at 17.78 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
