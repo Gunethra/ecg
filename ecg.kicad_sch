@@ -591,150 +591,6 @@
 				)
 			)
 		)
-		(symbol "Diode:ESD5Zxx"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD5Zxx"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Protection Diode, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "esd tvs unidirectional diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD5Zxx_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD5Zxx_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -874,6 +730,103 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "antenna_ecg:Antenna_Blackbox"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AN"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_Blackbox_1_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1989,6 +1942,139 @@
 				)
 			)
 		)
+		(symbol "jtag:JTAG_Blackbox"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JTAG"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JTAG_Blackbox_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2079,6 +2165,139 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "uart:UART_Blackbox"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "UART"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UART_Blackbox_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2216,96 +2435,6 @@
 		(at 146.05 64.77)
 		(uuid "f21d3c43-685b-46b7-9fad-41eb527355d6")
 	)
-	(bus_entry
-		(at 241.3 97.79)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea0a614-523e-400a-9d4f-47511bcc960c")
-	)
-	(bus_entry
-		(at 191.77 127)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f71efb9-ef9c-4c64-ba7a-d0d19250f9b1")
-	)
-	(bus_entry
-		(at 241.3 92.71)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3211bbff-1c0a-4079-bfad-c7d3b1e46a2a")
-	)
-	(bus_entry
-		(at 241.3 100.33)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "692d7f3b-e2d3-4155-ade7-10ce935b6d3f")
-	)
-	(bus_entry
-		(at 215.9 92.71)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86fd3796-4c29-42c5-8239-744225a9f2cc")
-	)
-	(bus_entry
-		(at 215.9 97.79)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e295de2-e2b0-4010-8675-fa5c358fc47e")
-	)
-	(bus_entry
-		(at 241.3 95.25)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aed4782d-d0e6-47ea-8dcc-b09908762767")
-	)
-	(bus_entry
-		(at 191.77 129.54)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65672fa-e923-45d3-85d5-b4528f471862")
-	)
-	(bus_entry
-		(at 215.9 95.25)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a4f780-7d27-4b54-8b51-bedffcc84c23")
-	)
-	(bus_entry
-		(at 215.9 100.33)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6aa140-aa5d-4fc1-aff3-1f89f2ff4d86")
-	)
 	(wire
 		(pts
 			(xy 146.05 90.17) (xy 170.18 90.17)
@@ -2315,26 +2444,6 @@
 			(type default)
 		)
 		(uuid "01bac209-1b80-4c82-8b6a-bbc541976d43")
-	)
-	(bus
-		(pts
-			(xy 194.31 132.08) (xy 194.31 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "032bc51f-967b-48db-b5d5-704b414d0df8")
-	)
-	(bus
-		(pts
-			(xy 194.31 125.73) (xy 194.31 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03de1046-cf86-4851-959f-ac2c0a784da1")
 	)
 	(wire
 		(pts
@@ -2386,16 +2495,6 @@
 		)
 		(uuid "0be4adc7-b485-4bdc-86ea-733333004fe0")
 	)
-	(bus
-		(pts
-			(xy 248.92 104.14) (xy 248.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e22455d-8b78-4fae-aaab-185725c06ac4")
-	)
 	(wire
 		(pts
 			(xy 236.22 100.33) (xy 241.3 100.33)
@@ -2425,16 +2524,6 @@
 			(type default)
 		)
 		(uuid "13616f3a-4844-41e7-9b5f-ad3e05d18b87")
-	)
-	(bus
-		(pts
-			(xy 199.39 134.62) (xy 199.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a0732a-4b4b-4316-b953-095338c3a74b")
 	)
 	(wire
 		(pts
@@ -2506,16 +2595,6 @@
 		)
 		(uuid "2211632a-91ab-484f-a397-f69fbd8dd182")
 	)
-	(bus
-		(pts
-			(xy 218.44 95.25) (xy 218.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d65385-3425-4906-8d98-17bd096511c2")
-	)
 	(wire
 		(pts
 			(xy 193.04 24.13) (xy 193.04 22.86)
@@ -2525,16 +2604,6 @@
 			(type default)
 		)
 		(uuid "24df7c7a-6a17-45c9-a813-2e05bb18a5e6")
-	)
-	(bus
-		(pts
-			(xy 243.84 92.71) (xy 243.84 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27768060-b04c-4206-b817-7ef70c0a5626")
 	)
 	(wire
 		(pts
@@ -2585,16 +2654,6 @@
 			(type default)
 		)
 		(uuid "314dd1e3-ace4-47c0-a8bf-a5e402740b8b")
-	)
-	(bus
-		(pts
-			(xy 243.84 102.87) (xy 243.84 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "320dca33-0654-48c0-beab-ad64c7c0d1ed")
 	)
 	(wire
 		(pts
@@ -2756,16 +2815,6 @@
 		)
 		(uuid "415d0630-ce3e-4a5f-acaf-7e7a070c7f42")
 	)
-	(bus
-		(pts
-			(xy 218.44 102.87) (xy 218.44 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418948fe-a1f4-4066-8c3b-cd0187484ffd")
-	)
 	(wire
 		(pts
 			(xy 87.63 64.77) (xy 100.33 64.77)
@@ -2846,16 +2895,6 @@
 		)
 		(uuid "49901a75-00ef-4b44-b145-6082728c5fdf")
 	)
-	(bus
-		(pts
-			(xy 194.31 134.62) (xy 199.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a480875-445d-4aa1-ac89-82487bd173fa")
-	)
 	(wire
 		(pts
 			(xy 161.29 135.89) (xy 161.29 134.62)
@@ -2875,16 +2914,6 @@
 			(type default)
 		)
 		(uuid "4c933208-c417-4393-b06a-e2099fe9612a")
-	)
-	(bus
-		(pts
-			(xy 243.84 100.33) (xy 243.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e6b827f-39ea-4738-bd8d-1f92e6ceabbd")
 	)
 	(wire
 		(pts
@@ -2946,36 +2975,6 @@
 		)
 		(uuid "5ebfe68f-7aa6-4701-a306-79fbed36a066")
 	)
-	(bus
-		(pts
-			(xy 194.31 129.54) (xy 194.31 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65339e3b-3fa1-42e2-8205-73cd777987a2")
-	)
-	(bus
-		(pts
-			(xy 194.31 125.73) (xy 199.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b9a739-2ad5-4876-b4ee-84d9fc81d265")
-	)
-	(bus
-		(pts
-			(xy 218.44 92.71) (xy 223.52 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67fc00fb-42ef-4fb0-bdc3-ed329d3c3233")
-	)
 	(wire
 		(pts
 			(xy 87.63 67.31) (xy 100.33 67.31)
@@ -2985,16 +2984,6 @@
 			(type default)
 		)
 		(uuid "68f5841e-557e-4d14-bd6e-c6e7cda2dcaf")
-	)
-	(bus
-		(pts
-			(xy 243.84 104.14) (xy 248.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac90231-7950-40b2-adff-82f4cfb97d96")
 	)
 	(wire
 		(pts
@@ -3055,16 +3044,6 @@
 			(type default)
 		)
 		(uuid "74ad6c9f-35fc-4549-bbb3-4312b54099f4")
-	)
-	(bus
-		(pts
-			(xy 223.52 104.14) (xy 223.52 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fcefe2-9f0a-4b90-a3d3-d30b7af69a3f")
 	)
 	(wire
 		(pts
@@ -3135,16 +3114,6 @@
 			(type default)
 		)
 		(uuid "8ac2984c-2a8f-4355-ba94-6b0c656698f1")
-	)
-	(bus
-		(pts
-			(xy 218.44 92.71) (xy 218.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d01452e-2e37-4c39-b88e-732ec4bc7603")
 	)
 	(wire
 		(pts
@@ -3285,26 +3254,6 @@
 			(type default)
 		)
 		(uuid "9dd04947-78ff-4cd8-9083-d3d831d2726b")
-	)
-	(bus
-		(pts
-			(xy 218.44 100.33) (xy 218.44 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9edbd28b-862b-46e2-aeb8-d508b976c639")
-	)
-	(bus
-		(pts
-			(xy 243.84 95.25) (xy 243.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f374c34-6acc-471b-ac4a-21151a9be701")
 	)
 	(wire
 		(pts
@@ -3486,16 +3435,6 @@
 		)
 		(uuid "bf73ddc4-6fcc-46a5-9e13-b5c40dc5c5fa")
 	)
-	(bus
-		(pts
-			(xy 243.84 92.71) (xy 248.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04db53f-3063-42fd-8456-958c4d4261c3")
-	)
 	(wire
 		(pts
 			(xy 87.63 77.47) (xy 100.33 77.47)
@@ -3616,16 +3555,6 @@
 		)
 		(uuid "d7718c89-70dc-4624-a4be-a0e91cd15a1c")
 	)
-	(bus
-		(pts
-			(xy 243.84 97.79) (xy 243.84 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd10d7d5-9d63-4da4-b90e-c628f881febc")
-	)
 	(wire
 		(pts
 			(xy 87.63 85.09) (xy 100.33 85.09)
@@ -3676,16 +3605,6 @@
 		)
 		(uuid "ea476f1e-325f-4204-9c87-587d3e5e831b")
 	)
-	(bus
-		(pts
-			(xy 218.44 104.14) (xy 223.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb25797b-3b15-44b0-a3d0-08538a57f1aa")
-	)
 	(wire
 		(pts
 			(xy 177.8 87.63) (xy 177.8 95.25)
@@ -3726,16 +3645,6 @@
 		)
 		(uuid "f541ebe7-8d54-4a32-af19-e3dbdf1f0f1b")
 	)
-	(bus
-		(pts
-			(xy 218.44 97.79) (xy 218.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab79f43-76e4-4c72-bcc6-406686d64d0c")
-	)
 	(wire
 		(pts
 			(xy 120.65 40.64) (xy 123.19 40.64)
@@ -3755,16 +3664,6 @@
 			)
 		)
 		(uuid "34d7ba5d-d40e-4143-bae5-07ba4f6ed8b8")
-	)
-	(text "UART"
-		(exclude_from_sim no)
-		(at 246.38 107.442 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "5283aa45-fbb7-45c4-b516-e89253ee254e")
 	)
 	(text "Boot switch"
 		(exclude_from_sim no)
@@ -3795,26 +3694,6 @@
 			)
 		)
 		(uuid "a9f8e261-85f1-4826-bf69-2a4506be19a0")
-	)
-	(text "ANT 1"
-		(exclude_from_sim no)
-		(at 197.104 137.922 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "d3e58b0a-1245-48ed-a442-98874e800d58")
-	)
-	(text "JTAG"
-		(exclude_from_sim no)
-		(at 220.98 107.442 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "d4cc2fed-b674-408d-b873-5223da79d27b")
 	)
 	(label "1"
 		(at 213.36 92.71 0)
@@ -4572,6 +4451,75 @@
 		)
 	)
 	(symbol
+		(lib_id "antenna_ecg:Antenna_Blackbox")
+		(at 196.85 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e32aed7-ca46-469c-b33f-0db1bc6ea0c6")
+		(property "Reference" "AN1"
+			(at 195.072 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "80214540-4127-47e3-9995-37ee849e3694")
+		)
+		(pin ""
+			(uuid "8c09bea1-c039-477a-bc9c-984574d463fe")
+		)
+		(instances
+			(project "ecg"
+				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
+					(reference "AN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 67.31 52.07 0)
 		(unit 1)
@@ -4776,42 +4724,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 40.64 146.05 0)
+		(lib_id "uart:UART_Blackbox")
+		(at 246.38 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "521ccf0b-e7cf-4174-84fc-ab5298751c17")
-		(property "Reference" "D1"
-			(at 40.64 139.7 0)
+		(uuid "583c0c34-eb8f-42f6-922d-11a9c5fe9c70")
+		(property "Reference" "UART1"
+			(at 243.332 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "ESD5Zxx"
-			(at 40.64 142.24 0)
+		(property "Value" "~"
+			(at 250.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 40.64 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 40.64 146.05 0)
+		(property "Footprint" ""
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,8 +4759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 40.64 146.05 0)
+		(property "Datasheet" ""
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,16 +4768,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e136fd47-634f-4f87-a3a8-c99d443c7e2c")
+		(property "Description" ""
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "e4635c73-ad55-4049-a217-a685aba2c1cc")
+		(pin ""
+			(uuid "3ef7c104-8f80-482e-b40b-52cf7ac6e32b")
+		)
+		(pin ""
+			(uuid "11b430d0-c41b-479d-bc22-3950c2728844")
+		)
+		(pin ""
+			(uuid "d5e3801f-6538-44b1-bc35-d16f43cb6f9c")
+		)
+		(pin ""
+			(uuid "1c11e506-f382-4061-9c15-a9ff948948da")
 		)
 		(instances
 			(project "ecg"
 				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
-					(reference "D1")
+					(reference "UART1")
 					(unit 1)
 				)
 			)
@@ -5528,6 +5483,81 @@
 		)
 	)
 	(symbol
+		(lib_id "jtag:JTAG_Blackbox")
+		(at 220.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae58b1c6-4b2f-45b8-af24-5b425c118786")
+		(property "Reference" "JTAG1"
+			(at 218.186 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "97cc8a1e-532d-4e1d-bdbe-19f9bc940655")
+		)
+		(pin ""
+			(uuid "ea224c38-6f6d-4837-a9ee-b71b70b9265d")
+		)
+		(pin ""
+			(uuid "26b74990-1c8d-468c-a072-3434a5d1dd30")
+		)
+		(pin ""
+			(uuid "e4ba6050-9a0b-4983-8d43-0be4eabfa084")
+		)
+		(instances
+			(project "ecg"
+				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
+					(reference "JTAG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 27.94 0)
 		(mirror y)
@@ -5546,7 +5576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10k"
 			(at 170.18 29.2099 0)
 			(effects
 				(font
@@ -5937,7 +5967,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbffbf8d-e98b-48f3-93f9-f6cefc4685f5")
 		(property "Reference" "U1"
 			(at 125.3841 120.65 0)
@@ -6252,7 +6281,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1uF"
 			(at 162.5599 29.21 0)
 			(effects
 				(font

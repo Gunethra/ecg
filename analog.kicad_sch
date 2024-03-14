@@ -1912,76 +1912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 90.17 53.34 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8881a2c-241c-49f4-84f9-c9f41b3109d3")
-		(property "Reference" "BT2"
-			(at 86.36 53.9115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 86.36 56.4515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb2253ea-e647-431b-a8bd-2e448de8582a")
-		)
-		(pin "2"
-			(uuid "82ae1f8e-d210-453a-bf3b-f6a3a331de54")
-		)
-		(instances
-			(project "ecg"
-				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176/1c4c63ba-b667-49bf-8c13-7d2046cd185f"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 76.2 87.63 90)
 		(unit 1)
@@ -2201,7 +2131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "3.6"
 			(at 86.36 69.1515 0)
 			(effects
 				(font
@@ -2247,6 +2177,76 @@
 			(project "ecg"
 				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176/1c4c63ba-b667-49bf-8c13-7d2046cd185f"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 90.17 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5085bcb-a5bc-43de-a34f-804548653618")
+		(property "Reference" "BT2"
+			(at 86.36 53.9115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.6"
+			(at 86.36 56.4515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8260454-2fa8-4457-a531-8030651b614c")
+		)
+		(pin "2"
+			(uuid "3135537c-9e4d-4232-987a-d285c841e202")
+		)
+		(instances
+			(project "ecg"
+				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176/1c4c63ba-b667-49bf-8c13-7d2046cd185f"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
