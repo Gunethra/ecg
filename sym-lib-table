@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Antenna")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/Antenna.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32-s3-pico-1")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/esp32-s3-pico-1.kicad_sym")(options "")(descr ""))
+  (lib (name "jtag")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/jtag.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA358")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/OPA358.kicad_sym")(options "")(descr ""))
+  (lib (name "uart")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/uart.kicad_sym")(options "")(descr ""))
+)
