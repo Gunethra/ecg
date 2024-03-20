@@ -957,6 +957,12 @@
 		)
 	)
 	(junction
+		(at 111.76 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fe19d5-6461-494a-8aed-9695fbcf7a03")
+	)
+	(junction
 		(at 128.27 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1261,6 +1267,16 @@
 			(type default)
 		)
 		(uuid "5af572d0-193a-46a2-8916-878fd0c3e420")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637ce12a-1696-47a7-b028-af68a1ba0057")
 	)
 	(wire
 		(pts
@@ -1584,6 +1600,28 @@
 			)
 		)
 	)
+	(global_label "Vs-"
+		(shape output)
+		(at 115.57 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "374c0c1a-5c2b-45d0-9f22-4aaa4a41fab8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.2443 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Electrode_2"
 		(shape input)
 		(at 66.04 109.22 270)
@@ -1723,7 +1761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "opa358-local:DCK6-M"
+		(property "Footprint" "opa358:DCK6-M"
 			(at 179.07 99.06 0)
 			(effects
 				(font
@@ -2277,7 +2315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ad620-local:R_8_ADI-M"
+		(property "Footprint" "ad620:R_8_ADI-M"
 			(at 92.71 90.17 0)
 			(effects
 				(font
