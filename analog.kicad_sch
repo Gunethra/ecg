@@ -975,6 +975,12 @@
 		(uuid "57241edc-ba29-4d67-972f-237d4706be22")
 	)
 	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59c0027c-af1c-4a02-b725-52292dc3ba1d")
+	)
+	(junction
 		(at 149.86 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1578,6 +1584,16 @@
 		)
 		(uuid "fe5c4940-375a-4914-a866-3481e63e0d4e")
 	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 176.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4f5069-8f66-4349-b142-86ef5c8b3a23")
+	)
 	(global_label "Analog_Out"
 		(shape output)
 		(at 204.47 92.71 0)
@@ -1613,6 +1629,28 @@
 		(uuid "374c0c1a-5c2b-45d0-9f22-4aaa4a41fab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.2443 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vs+"
+		(shape output)
+		(at 176.53 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68b089ab-eb22-4342-af85-813f6b9de90e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.2043 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
