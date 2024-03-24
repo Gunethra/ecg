@@ -1499,20 +1499,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 10.16 -38.1 0)
+			(property "Reference" "U1"
+				(at -35.306 -37.846 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ESP32-S3-PICO-1-N8R2"
-				(at 13.97 -40.64 0)
+				(at -35.306 -40.386 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm"
@@ -2458,42 +2460,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at -22.86 -30.48 0)
-					(length 2.54)
-					(name "XTAL_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -27.94 0)
-					(length 2.54)
-					(name "XTAL_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -5.08 38.1 270)
 					(length 2.54)
@@ -3324,10 +3290,6 @@
 		(uuid "97c83f7d-fa9f-4129-9a2f-b08defee3da5")
 	)
 	(no_connect
-		(at 86.36 170.18)
-		(uuid "99019eb0-3f43-4ac7-a587-185ad7d985fb")
-	)
-	(no_connect
 		(at 86.36 119.38)
 		(uuid "998889be-eb67-4235-8d1f-bef577608a75")
 	)
@@ -3350,10 +3312,6 @@
 	(no_connect
 		(at 132.08 129.54)
 		(uuid "b069bfee-bf02-4e41-adf9-de0e1ce4cd5b")
-	)
-	(no_connect
-		(at 86.36 167.64)
-		(uuid "b1dc8803-08c3-496d-9ce8-a6bd052857d2")
 	)
 	(no_connect
 		(at 132.08 137.16)
@@ -7780,17 +7738,11 @@
 		(pin "50"
 			(uuid "a0fc8ddc-7e33-4404-90db-3e1f2acb0725")
 		)
-		(pin "53"
-			(uuid "7cacbbdc-579c-4dbe-a504-345d04b4f6fe")
-		)
 		(pin "10"
 			(uuid "4667cc85-374c-4f0f-a37d-8bf4817a731f")
 		)
 		(pin "30"
 			(uuid "08865602-5b67-4c8b-a52e-e1f259837cb7")
-		)
-		(pin "54"
-			(uuid "8b928593-1e3c-487f-a21f-5112e22efb11")
 		)
 		(pin "16"
 			(uuid "5ae2d82b-a581-4e7b-b8c1-433e3c949f0b")
