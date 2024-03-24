@@ -1,7 +1,0 @@
-Questionable use of curly braces in "(net (code "40") (name "unconnected-(u1-gpio19{slash}usb_d--pad25)")"
-    Error: undefined symbol in: "[slash]"
-Questionable use of curly braces in "(net (code "41") (name "unconnected-(u1-gpio20{slash}usb_d+-pad26)")"
-    Error: undefined symbol in: "[slash]"
-Circuit: (export (version "E")
-
-Fatal Error: Unknown SPICE device type "(" in "(design"
