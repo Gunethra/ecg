@@ -3242,10 +3242,6 @@
 		(uuid "4c261921-8f88-4fbb-a5d0-e209d90809e5")
 	)
 	(no_connect
-		(at 86.36 154.94)
-		(uuid "4e0ee535-f937-473d-9e36-7a4b4d595489")
-	)
-	(no_connect
 		(at 86.36 139.7)
 		(uuid "505b37e5-769e-4e16-b841-9efb75597637")
 	)
@@ -3260,10 +3256,6 @@
 	(no_connect
 		(at 86.36 165.1)
 		(uuid "7015a835-ffa3-4d28-885d-0f566ecd0c03")
-	)
-	(no_connect
-		(at 86.36 152.4)
-		(uuid "704dd298-a905-4f02-a80e-506d98628ac7")
 	)
 	(no_connect
 		(at 86.36 142.24)
@@ -3469,16 +3461,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 157.48) (xy 171.45 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13616f3a-4844-41e7-9b5f-ad3e05d18b87")
-	)
-	(wire
-		(pts
 			(xy 368.3 134.62) (xy 368.3 162.56)
 		)
 		(stroke
@@ -3566,6 +3548,16 @@
 			(type default)
 		)
 		(uuid "20058047-2ecc-48b7-b1e3-01d809595cc2")
+	)
+	(wire
+		(pts
+			(xy 148.59 157.48) (xy 171.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2210afac-0db6-4158-9777-7694a3194420")
 	)
 	(wire
 		(pts
@@ -3916,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "541e98c3-4d6b-4c3c-9c62-7b753762cb45")
+	)
+	(wire
+		(pts
+			(xy 132.08 157.48) (xy 140.97 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d374be-cc1f-48f9-9660-8b2f141f6342")
 	)
 	(wire
 		(pts
@@ -6797,6 +6799,73 @@
 			(project "ecg"
 				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a2cbfc-fe01-49ff-9d07-b18a99d56f5e")
+		(property "Reference" "R7"
+			(at 140.97 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "499"
+			(at 144.78 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8af106d1-a560-4b83-8809-543ddd327c41")
+		)
+		(pin "1"
+			(uuid "5e902abd-d781-4bce-b1ad-4070a1c893e7")
+		)
+		(instances
+			(project "ecg"
+				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
+					(reference "R7")
 					(unit 1)
 				)
 			)
