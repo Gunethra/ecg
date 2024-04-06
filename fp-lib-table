@@ -2,6 +2,6 @@
   (version 7)
   (lib (name "ad620")(type "KiCad")(uri "${KIPRJMOD}/fingerprints-local/ad620.pretty")(options "")(descr ""))
   (lib (name "opa358")(type "KiCad")(uri "${KIPRJMOD}/fingerprints-local/opa358.pretty")(options "")(descr ""))
-  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/fingerprints-local/Library.pretty")(options "")(descr ""))
   (lib (name "pads")(type "KiCad")(uri "${KIPRJMOD}/fingerprints-local/pads.pretty")(options "")(descr ""))
+  (lib (name "Socket")(type "KiCad")(uri "${KIPRJMOD}/fingerprints-local/Socket.pretty")(options "")(descr ""))
 )
