@@ -5,4 +5,5 @@
   (lib (name "jtag")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/jtag.kicad_sym")(options "")(descr ""))
   (lib (name "OPA358")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/OPA358.kicad_sym")(options "")(descr ""))
   (lib (name "uart")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/uart.kicad_sym")(options "")(descr ""))
+  (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/symbols-local/usb.kicad_sym")(options "")(descr ""))
 )
