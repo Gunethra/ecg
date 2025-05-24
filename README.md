@@ -1,3 +1,3 @@
 ### Images
-![top](<github_username>.github.io/<repo_name>/top.png)
-![bottom](<github_username>.github.io/<repo_name>/bottom.png)
+![top](gunethra.github.io/ecg/top.png)
+![bottom](gunethra.github.io/ecg/bottom.png)
