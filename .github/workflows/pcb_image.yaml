@@ -15,6 +15,13 @@ jobs:
           pcb_file: ecg.kicad_pcb
           output_path: ${{ github.workspace }}/images
           background: transparent # Remove for no transparency
+          
+      - name: render pcb gif
+        uses: linalinn/kicad-render@main
+        with:
+          pcb_file: ecg.kicad_pcb
+          output_path: ${{ github.workspace }}/images
+          animation: gif
         
       - name: Setup Pages
         if: github.ref == 'refs/heads/master'
